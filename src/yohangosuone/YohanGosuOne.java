@@ -13,7 +13,7 @@ public class YohanGosuOne {
     // global varialbe
     static String fullName;
     static long age, contactNumber, calOpen;
-    static double x,y;
+    static double x,y,itec96, itec33, itec30, itec36, fili3, phed3;
     static void tito(String string){
         System.out.print(string);
     }
@@ -67,6 +67,9 @@ public class YohanGosuOne {
         if(calOpen == 1){
             cl.EvennOdd(x);
             break;
+        }
+        if(calOpen == 3){
+            cl.calcuWithGrades(itec96,itec33, itec30,  itec36, fili3,  phed3);
         }
         else{
             continue;
