@@ -12,7 +12,7 @@ public class calcu {
     static void tita(String string){
         System.out.print(string);
     }
-     double x, y, selectUser, w, h, itec96, itec30, itec36, itec33, fili3, phed3; // global variable
+     double x, y, selectUser, h, itec96, itec30, itec36, itec33, fili3, phed3; // global variable
     Scanner scan = new Scanner(System.in);
             // calculator
             void Calculator (double x, double y){
@@ -71,45 +71,6 @@ public class calcu {
             return ml;
         }
             // even and odd
-            void EvennOdd(double w)
-            { 
-                System.out.print("Enter number : ");
-                w = scan.nextInt();
-                while(true){
-                if(w % 2 == 0){
-                    tita("Even number : " + w + "\n");
-                    break;
-                }
-                else if(w % 1 == 0){
-                     tita("Odd number : " + w + "\n");
-                     break;
-                }
-                else {
-                    tita("Invalid");
-                    continue;
-                }
-                }
-            }
-        void calcuWithGrades(double itec96, double itec33, double itec30, double itec36, double fili3, double phed3){
-            tita("Enter ITEC96 : ");
-            itec96 = scan.nextDouble();
-            
-            tita("Enter ITEC96 : ");
-            itec33 = scan.nextDouble();
-            
-            tita("Enter ITEC96 : ");
-            itec30 = scan.nextDouble();
-            
-            tita("Enter ITEC96 : ");
-            itec36 = scan.nextDouble();
-            
-            tita("Enter ITEC96 : ");
-            fili3 = scan.nextDouble();
-            
-            tita("Enter ITEC96 : ");
-            phed3 = scan.nextDouble();
-            
-            double ave = (itec96 + itec33 + itec30 + itec36 + fili3 + phed3)/6;
-            tita("Average : " + ave + "\n");
-        }
+           
+        
 }
